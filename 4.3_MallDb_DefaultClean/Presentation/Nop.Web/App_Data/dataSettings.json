@@ -1,5 +1,0 @@
-﻿{
-  "DataConnectionString": "Data Source=(localdb)\\DEVELOPMENT;Initial Catalog=tstMallDb;Integrated Security=True;Persist Security Info=False",
-  "DataProvider": "sqlserver",
-  "RawDataSettings": {}
-}
