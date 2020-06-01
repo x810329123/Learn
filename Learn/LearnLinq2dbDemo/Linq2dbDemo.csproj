@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Linq2db\Linq2dbTool.csproj" />
+    <ProjectReference Include="..\Linq2dbTool\Linq2dbTool.csproj" />
   </ItemGroup>
 
 </Project>
