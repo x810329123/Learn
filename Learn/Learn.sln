@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq2dbDemo", "LearnLinq2dbDemo\Linq2dbDemo.csproj", "{7E1D0D32-4B72-4926-A65B-336404B46358}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq2dbTool", "Linq2dbTool\Linq2dbTool.csproj", "{8E3E3CF0-0B62-46DB-89F3-F1BE720C93F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq2dbDemo", "Linq2dbDemo\Linq2dbDemo.csproj", "{39CE8529-FCE4-41B1-A90A-4A1A7300143F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E1D0D32-4B72-4926-A65B-336404B46358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E1D0D32-4B72-4926-A65B-336404B46358}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E1D0D32-4B72-4926-A65B-336404B46358}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E1D0D32-4B72-4926-A65B-336404B46358}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E3E3CF0-0B62-46DB-89F3-F1BE720C93F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8E3E3CF0-0B62-46DB-89F3-F1BE720C93F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E3E3CF0-0B62-46DB-89F3-F1BE720C93F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E3E3CF0-0B62-46DB-89F3-F1BE720C93F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CE8529-FCE4-41B1-A90A-4A1A7300143F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CE8529-FCE4-41B1-A90A-4A1A7300143F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CE8529-FCE4-41B1-A90A-4A1A7300143F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CE8529-FCE4-41B1-A90A-4A1A7300143F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
