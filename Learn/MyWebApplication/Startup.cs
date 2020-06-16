@@ -16,6 +16,10 @@ namespace MyWebApplication
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
+            //´ú¸Õ¨ú­È
+            var configurationSection = configuration.GetSection("Test");
+            var testValue = configurationSection.Value;
         }
 
         public IConfiguration Configuration { get; }
