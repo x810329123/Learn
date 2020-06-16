@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq2dbTool", "Linq2dbTool\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq2dbDemo", "Linq2dbDemo\Linq2dbDemo.csproj", "{39CE8529-FCE4-41B1-A90A-4A1A7300143F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacDemo", "AutoFacDemo\AutoFacDemo.csproj", "{28D8E974-C790-4F03-AD14-A1F5CD069865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{39CE8529-FCE4-41B1-A90A-4A1A7300143F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39CE8529-FCE4-41B1-A90A-4A1A7300143F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39CE8529-FCE4-41B1-A90A-4A1A7300143F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D8E974-C790-4F03-AD14-A1F5CD069865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D8E974-C790-4F03-AD14-A1F5CD069865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D8E974-C790-4F03-AD14-A1F5CD069865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D8E974-C790-4F03-AD14-A1F5CD069865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
