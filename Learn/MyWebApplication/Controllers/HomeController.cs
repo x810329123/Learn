@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.Security.Application;
 using MyWebApplication.Models;
 
 namespace MyWebApplication.Controllers
@@ -20,6 +21,13 @@ namespace MyWebApplication.Controllers
 
         public IActionResult Index()
         {
+            var ttt = @"<script language=""javascript"">alert(1)</script>";
+            var ddddd = Encoder.HtmlEncode(ttt);
+            bool ddd = false;
+            if (ddd==false)
+            { 
+            
+            }
             return View();
         }
 

@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Learn",
+    "\\Learn\\Linq2dbDemo",
+    "\\Learn\\Web47"
   ],
+  "SelectedNode": "\\Learn\\Web47\\Web47.csproj",
   "PreviewInSolutionExplorer": false
 }

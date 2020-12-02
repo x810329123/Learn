@@ -21,7 +21,8 @@ namespace Linq2dbTool
                     {
                         Name = "tstMallDB",
                         ProviderName = "SqlServer",
-                        ConnectionString = @"Data Source=(localdb)\DEVELOPMENT;Initial Catalog=tstMallDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;"
+                        //ConnectionString = @"Data Source=(localdb)\DEVELOPMENT;Initial Catalog=tstMallDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;"
+                        ConnectionString = @"Server=tcp:cblaxokqm4.database.windows.net,1433;Database=StayfunDbTst;User ID=_sa@cblaxokqm4;Password=Hn54510058;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;ConnectRetryCount=6;ConnectRetryInterval=5;"
                     };
             }
         }

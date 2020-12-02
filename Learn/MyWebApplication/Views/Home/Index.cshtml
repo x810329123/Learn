@@ -4,5 +4,132 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p id="grid">Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
 </div>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script defer src="~/lib/kendoui.for.jquery.2020.2.617.trial/js/kendo.all.min.js"></script>
+@*<script defer src="https://kendo.cdn.telerik.com/2020.2.617/js/kendo.all.min.js"></script>*@
+<script>
+    $(document).ready(function () {
+        alert('Hello world!');
+    });</script>
+<script>
+    //window.addEventListener('load', function() {
+    //    $("#grid").kendoGrid({
+    //        columns: [{
+    //            field: "FirstName",
+    //            title: "First Name"
+    //        },
+    //        {
+    //            field: "LastName",
+    //            title: "Last Name"
+    //        }],
+    //        dataSource: {
+    //            data: [{
+    //                FirstName: "Joe",
+    //                LastName: "Smith"
+    //            },
+    //            {
+    //                FirstName: "Jane",
+    //                LastName: "Smith"
+    //            }]
+    //        }
+    //    });
+    //});
+    $(document).ready(function () {
+        $("#grid").kendoGrid({
+            columns: [{
+                field: "FirstName",
+                title: "First Name"
+            },
+            {
+                field: "LastName",
+                title: "Last Name"
+            }],
+            dataSource: {
+                data: [{
+                    FirstName: "Joe",
+                    LastName: "Smith"
+                },
+                {
+                    FirstName: "Jane",
+                    LastName: "Smith"
+                }]
+            }
+        });
+    });
+
+
+</script>
+@*<script src="\wwwroot\lib\jquery\dist\jquery.js"></script>*@
+@*<script src="C:\Users\jake_li\source\repos\Learn\Learn\MyWebApplication\wwwroot\lib\jquery\dist\jquery.js">
+
+    $(document).ready(function() {
+        alert('Hello world!');
+    });
+    </script>*@
+@*<script>
+                                $(document).ready(function () {
+                                    var orderStatusId = getUrlParameter('OrderStatusId');
+
+                                    $("#orders-grid").kendoGrid({
+                                        dataSource: {
+                                            type: "json",
+                                            transport: {
+                                                read: {
+                                                    url: "@Html.Raw(Url.Action("OrderList", "BusinessReport"))",
+                                                    type: "POST",
+                                                    dataType: "json",
+                                                    data: function() {
+                                                        var data = {
+                                                            CustomOrderNumber: 321
+                                                        };
+                                                        addAntiForgeryToken(data);
+                                                        return data;
+                                                    }
+                                                }
+                                            },
+                                            schema: {
+                                                data: "Data",
+                                                total: "Total",
+                                                errors: "Errors"
+                                            },
+                                            error: function(e) {
+                                                display_kendoui_grid_error(e);
+                                                // Cancel the changes
+                                                this.cancelChanges();
+                                            },
+                                            pageSize: 10,
+                                            serverPaging: true,
+                                            serverFiltering: true,
+                                            serverSorting: true
+                                        },
+                                        pageable: {
+                                            refresh: true,
+                                            pageSizes: [10],
+                                        },
+                                        editable: {
+                                            confirmation: "6545646",
+                                            mode: "inline"
+                                        },
+                                        scrollable: false,
+                                        dataBound: onDataBound,
+                                        columns: [
+                                            {
+                                                field: "Id",
+                                                headerTemplate: "<input id='mastercheckbox' type='checkbox'/>",
+                                                headerAttributes: { style: "text-align:center" },
+                                                attributes: { style: "text-align:center" },
+                                                template: "<input type='checkbox' value='#=Id#' class='checkboxGroups'/>",
+                                                width: 50
+                                            }, {
+                                                field: "CustomOrderNumber",
+                                                title: "6666",
+                                                width: 80
+                                            }
+                                        ]
+                                    } );
+                                });
+    </script>*@
